@@ -165,7 +165,7 @@ const play = () => {
             allCube[randomNumberValue].appendChild(myChoice)
             arena.style.pointerEvents = 'auto'
             cubeArray[randomNumberValue] = 'O'
-            
+
             whoWin()
         }, 1000)
     }
